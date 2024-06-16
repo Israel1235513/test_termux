@@ -11,14 +11,14 @@ BRANCO = " \033[1;37m"
 while :
 do 
 
-echo `${VERMELHO} 「 Vamos iniciar o seu painel. :D 」`
-echo `${VERMELHO} 「 Painel sendo iniciado com sucesso. :D 」`
-echo `${VERDE}██╗  ██╗██╗██╗     ██╗         ██╗    ██╗ █████╗`
-echo `${VERDE}██║ ██╔╝██║██║     ██║         ██║    ██║██╔══██╗`
-echo `${VERDE}█████╔╝ ██║██║     ██║         ██║ █╗ ██║███████║`
-echo `${VERDE}██╔═██╗ ██║██║     ██║         ██║███╗██║██╔══██║`
-echo `${VERDE}██║  ██╗██║███████╗███████╗    ╚███╔███╔╝██║  ██║`
-echo `${VERDE}╚═╝  ╚═╝╚═╝╚══════╝╚══════╝     ╚══╝╚══╝ ╚═╝  ╚═╝`
+echo -e "${VERMELHO}「 Vamos iniciar o seu painel. :D 」"
+echo -e "${VERMELHO}「 Painel sendo iniciado com sucesso. :D 」"
+echo -e "${VERDE}██╗  ██╗██╗██╗     ██╗         ██╗    ██╗ █████╗"
+echo -e "${VERDE}██║ ██╔╝██║██║     ██║         ██║    ██║██╔══██╗"
+echo -e "${VERDE}█████╔╝ ██║██║     ██║         ██║ █╗ ██║███████║"
+echo -e "${VERDE}██╔═██╗ ██║██║     ██║         ██║███╗██║██╔══██║"
+echo -e "${VERDE}██║  ██╗██║███████╗███████╗    ╚███╔███╔╝██║  ██║"
+echo -e "${VERDE}╚═╝  ╚═╝╚═╝╚══════╝╚══════╝     ╚══╝╚══╝ ╚═╝  ╚═╝"
 node index.js
 
 sleep 1
